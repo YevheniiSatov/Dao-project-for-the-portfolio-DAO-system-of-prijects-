@@ -38,3 +38,38 @@ These instructions will help you set up and run the project on your local machin
 ### Running the Application
 
 The main entry point for the application is the `Main` class. You can run the application by executing the `Main` class. The GUI will start, and you can manage projects through the interface.
+
+##Usage
+1. Add Project:
+
+Fill in the "Project Name", "Project Area", and "Project Cost" fields.
+Click "Add Project".
+2. View Project:
+
+Enter the "Project Name".
+Click "Show Project".
+3. Update Project:
+
+Enter the "Project Name".
+Click "Update Project".
+Modify the fields in the dialog that appears and confirm.
+4. Delete Project:
+
+Enter the "Project Name".
+Click "Delete Project".
+List All Projects:
+
+Click "Show All Projects".
+Filter Projects by Cost:
+
+Enter the "Cost Threshold".
+Click "Show Projects Above Threshold".
+Count Projects by Criteria:
+
+Enter the "Cost" and "Area".
+Click "Count Projects by Criteria".
+Project Structure
+dal: Data Access Layer (DAO) classes for managing project storage (in memory and file system).
+models: Data models representing projects.
+representation: GUI classes for interacting with the user.
+Main.java: Main entry point for the application
